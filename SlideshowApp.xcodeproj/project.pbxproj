@@ -13,6 +13,10 @@
 		98B12B682A7BA1160037D708 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B12B662A7BA1160037D708 /* Main.storyboard */; };
 		98B12B6A2A7BA1170037D708 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B12B692A7BA1170037D708 /* Assets.xcassets */; };
 		98B12B6D2A7BA1170037D708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B12B6B2A7BA1170037D708 /* LaunchScreen.storyboard */; };
+		98B12B752A7BA4A60037D708 /* ZoomImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B12B742A7BA4A60037D708 /* ZoomImageViewController.swift */; };
+		98B12B7C2A7CF9460037D708 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98B12B792A7CF9460037D708 /* image1.jpg */; };
+		98B12B7D2A7CF9460037D708 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98B12B7A2A7CF9460037D708 /* image3.jpg */; };
+		98B12B7E2A7CF9460037D708 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98B12B7B2A7CF9460037D708 /* image2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		98B12B692A7BA1170037D708 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98B12B6C2A7BA1170037D708 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98B12B6E2A7BA1170037D708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B12B742A7BA4A60037D708 /* ZoomImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomImageViewController.swift; sourceTree = "<group>"; };
+		98B12B792A7CF9460037D708 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		98B12B7A2A7CF9460037D708 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		98B12B7B2A7CF9460037D708 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				98B12B622A7BA1160037D708 /* SceneDelegate.swift */,
 				98B12B642A7BA1160037D708 /* ViewController.swift */,
 				98B12B662A7BA1160037D708 /* Main.storyboard */,
+				98B12B742A7BA4A60037D708 /* ZoomImageViewController.swift */,
+				98B12B792A7CF9460037D708 /* image1.jpg */,
+				98B12B7B2A7CF9460037D708 /* image2.jpg */,
+				98B12B7A2A7CF9460037D708 /* image3.jpg */,
 				98B12B692A7BA1170037D708 /* Assets.xcassets */,
 				98B12B6B2A7BA1170037D708 /* LaunchScreen.storyboard */,
 				98B12B6E2A7BA1170037D708 /* Info.plist */,
@@ -126,7 +138,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				98B12B6D2A7BA1170037D708 /* LaunchScreen.storyboard in Resources */,
+				98B12B7D2A7CF9460037D708 /* image3.jpg in Resources */,
+				98B12B7C2A7CF9460037D708 /* image1.jpg in Resources */,
 				98B12B6A2A7BA1170037D708 /* Assets.xcassets in Resources */,
+				98B12B7E2A7CF9460037D708 /* image2.jpg in Resources */,
 				98B12B682A7BA1160037D708 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +156,7 @@
 				98B12B652A7BA1160037D708 /* ViewController.swift in Sources */,
 				98B12B612A7BA1160037D708 /* AppDelegate.swift in Sources */,
 				98B12B632A7BA1160037D708 /* SceneDelegate.swift in Sources */,
+				98B12B752A7BA4A60037D708 /* ZoomImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FFVY9T4L8Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FFVY9T4L8Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
